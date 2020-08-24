@@ -1,0 +1,32 @@
+#menu{
+   margin-top: -80px;
+   margin-left: 50px ;
+}
+
+
+#menu nav {   
+    float: left;
+    position: relative; 
+    margin-left:80px;
+    margin-top: 25px;;  
+ }
+
+ #menu ul{
+     margin: 0px;
+ }
+
+#menu nav ul li {   
+   display: inline-block;  
+   width: 150px;
+}
+
+#menu nav ul li a {
+    color: var(--red-header);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px; 
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    font-family: "Helvetica Neue",sans-serif;
+ }
+ 
