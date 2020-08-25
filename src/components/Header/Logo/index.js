@@ -1,11 +1,10 @@
 import React from 'react'
-import Logo from '../../../Assets/img/Logo.png';
 
-function LogoTipo() {
+function LogoTipo(props) {
     return (
         <>
             <a href="/">
-                <img id="logo" src={Logo} alt='Logo do Site' />
+                <img id="logo" src={props.logotipo} alt='Logo do Site' />
             </a>
         </>
     )

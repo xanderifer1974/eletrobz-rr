@@ -2,10 +2,10 @@ import React from 'react';
 import IconesTopo from '../IconesTopo';
 
 
-function TopHeader(){
+function TopHeader(props){
     return (
         <div id='top-header'>
-         <IconesTopo/>
+         <IconesTopo whatsapp={props.whatsapp} email={props.email}/>
         </div>
     )
 }
