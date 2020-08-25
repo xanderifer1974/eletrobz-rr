@@ -1,0 +1,12 @@
+ #text-banner{
+    margin-top: -350px;
+    float: right;
+    width: 800px;
+    font-family: Arial Rounded MT Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 60px;
+    color: #FBF3E2;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.5);
+   }

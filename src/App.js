@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from './components/Header'
 import './App.css'
+import MainBanner from './components/MainBanner';
 
 function App() {
   return (
-    <div >
+    <>
       <Header/>
-      <h1>Eletrobazar RR</h1>
-    </div>
+      <MainBanner/>
+    </>
   );
 }
 
