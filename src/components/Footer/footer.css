@@ -1,0 +1,38 @@
+#footer{
+margin-top: 0;    
+width: auto;
+height: 212px;
+left: 0px;
+top: 1544px;
+background: #D04F3D;
+text-align: center;
+
+}
+
+#logo-footer{
+    margin-top:10px;
+    border: 2px solid #D9A111;
+    box-sizing: border-box;
+    filter: drop-shadow(5px 4px 4px #EECD68);
+}
+
+#text-footer-main{
+font-family: Tahoma;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 43px;
+color: #FFFFFF;
+text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#endereco-footer{
+font-family: Tahoma;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 23px;
+color: #FFFFFF;
+text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+

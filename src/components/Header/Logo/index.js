@@ -4,7 +4,7 @@ function LogoTipo(props) {
     return (
         <>
             <a href="/">
-                <img id="logo" src={props.logotipo} alt='Logo do Site' />
+                <img id="logo" src={props.logotipo} alt='Logo do Site' width={props.largura} height={props.altura} />
             </a>
         </>
     )
