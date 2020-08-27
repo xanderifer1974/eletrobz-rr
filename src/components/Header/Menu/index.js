@@ -3,15 +3,17 @@ import './menu.css';
 
 
 
-function Menu() {
+function Menu(props) {
     return (
         <div id="menu">           
             <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">Produto</a></li>
-                    <li><a href="/">Serviço</a></li>
-                    <li><a href="/">Contato</a></li>
+                <ul> 
+                    <li><a href="/">{props.itens[0]}</a></li>
+                    <li><a href="/">{props.itens[1]}</a></li>
+                    <li><a href="/">{props.itens[2]}</a></li>
+                    <li><a href="/">{props.itens[3]}</a></li>
+                    <li><a href="/">{props.itens[4]}</a></li>
+                    <li><a href="/">{props.itens[5]}</a></li>                   
                 </ul>
             </nav>
         </div>

@@ -1,13 +1,13 @@
 import React from 'react'
 import './textBanner.css'
 
-function TextBanner() {
+function TextBanner(props) {
     return (
         <div id="text-banner">
             <ul>
-                <li>ROUPAS E SAPATOS</li>
-                <li>CONCERTO E PEÇAS PARA ELETRODOMÉSTICOS</li>
-                <li>MUITAS VARIEDADES</li>
+                <li>{props.itens[0]}</li>
+                <li>{props.itens[1]}</li>
+                <li>{props.itens[2]}</li>
             </ul>
         </div>
     )

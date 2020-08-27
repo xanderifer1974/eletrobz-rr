@@ -5,6 +5,7 @@ import TopHeader from './Top-header';
 import LogoTipo from './Logo';
 import Logo from '../../Assets/img/Logo.png'
 
+var itens = ['Home','Produtos','Serviços','Contato']
 function Header() {
     return (
         <header>
@@ -12,7 +13,7 @@ function Header() {
                 <>
                    <TopHeader whatsapp="+55 (21) 97632-4456" email="eletrobazar01@gmail.com"/>
                    <LogoTipo logotipo={Logo}/>
-                   <Menu />
+                   <Menu itens = {itens}/>
                 </>
             </div>
         </header>
